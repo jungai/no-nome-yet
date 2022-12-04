@@ -19,3 +19,11 @@
 - database -> firestore (NoSQL)
 - deploy service -> gcp run
 - deploy frontend -> netlify
+
+## Tools
+
+- [pnpm](https://pnpm.io/)
+- [nestjs](https://nestjs.com/)
+- [firestore](https://firebase.google.com/products/firestore?gclsrc=ds&gclsrc=ds&gclid=CJ6Nmeau4PsCFQzmjgodc-QDqQ)
+- [react](https://reactjs.org/)
+- [tailwindcss](https://tailwindcss.com/)
