@@ -6,7 +6,7 @@ import { SubscriberService } from './subscribers.service';
 @Controller('subscribers')
 export class AddSubscribersController {
   constructor(private readonly subscriberService: SubscriberService) {}
-  @Post('add')
+  @Post()
   async addSubscribers(
     @Body() addSubscriberDto: AddSubscriberDto,
   ): Promise<{ isSuccessful: boolean; email: string }> {
